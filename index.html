@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario para login e senha</title>
+</head>
+<body>
+    <h1>Utilizando formulário para login e senha</h1>
+    <form action="login.php" method="get" autocomplete="on">
+        <p>
+        <label for="user">Usuario</label>
+        <input type="text" name="user" id="user" minlength="3" maxlength="16">
+        </p>
+        <p>
+            <label for="pass">Senha</label>
+            <input type="password" name="pass" id="pass" minlength="8">
+        </p>
+        <p>
+            <button type="submit">Entrar</button>
+            <button type="reset">Limpar</button>
+        </p>
+        <p>
+            <label for="data"> Data</label>
+            <input type="datetime" name="data" id="data">
+        </p>
+        <p>
+            <p>Por quê você está com sono?</p>
+            <label for="op">Joguei a noite inteira</label>
+            <input type="radio" name="op" id="op">
+            <label for="op">O fantastico terminou tarde!</label>
+            <input type="radio" name="op" id="op">
+            <label for="op">Estava na Afonso</label>
+            <input type="radio" name="op" id="op">
+        </p>
+        <p>
+            <p>Você está com Preguiça ou Sono?</p>
+            <label for="selecao">Preguiça</label>
+            <input type="checkbox" name="selecao" id="selecao">
+            <label for="selecao">Sono</label>
+            <input type="checkbox" name="selecao" id="selecao">
+        </p>
+    </form>
+
+    </form>
+
+</body>
+</html>
